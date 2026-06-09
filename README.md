@@ -150,12 +150,12 @@ Each feature set is stored as one `.npy` file per video under
 | `RGBHistogram` | (3, 24) | 72 | Hand-crafted visual |
 | `LBP` | (3, 256) | 768 | Hand-crafted visual |
 | `R3D` | (512,) | 512 | Temporal |
-| `AlexNet` | (3, 4096) | 12 288 | Deep visual |
-| `DenseNet121` | (3, 1024) | 3 072 | Deep visual |
-| `EfficientNetB3` | (3, 1536) | 4 608 | Deep visual |
-| `ResNet50` | (3, 2048) | 6 144 | Deep visual |
-| `VGG` | (3, 4096) | 12 288 | Deep visual |
-| `ViT` | (3, 768) | 2 304 | Deep visual |
+| `AlexNet` | (3, 4096) | 12,288 | Deep visual |
+| `DenseNet121` | (3, 1024) | 3,072 | Deep visual |
+| `EfficientNetB3` | (3, 1536) | 4,608 | Deep visual |
+| `ResNet50` | (3, 2048) | 6,144 | Deep visual |
+| `VGG` | (3, 4096) | 12,288 | Deep visual |
+| `ViT` | (3, 768) | 2,304 | Deep visual |
 | `tcnj_audio_c` | (3, 9) | 27 | Audio |
 | `tcnj_audio_o` | (9,) | 9 | Audio |
 | `tcnj_emotion` | (19,) | 19 | Emotion |
