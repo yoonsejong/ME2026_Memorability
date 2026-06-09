@@ -323,3 +323,11 @@ You can find all 5-fold CV results in `results/sweep_results.csv`.
 Full sweep: 1,650 configurations (33 combinations × 5 selectors × 5 models × 2 fusion modes).
 
 All ensemble predictions use rank-average fusion of per-model outputs.
+
+---
+
+## Disclaimer
+
+Vast majority of the code in this repository was written by Claude Code.
+While we tried our best to verify all aspects of the code, the code may have bugs.
+License of this code is MIT -- meaning there is no warranty of any kind, it is provided AS IS.
