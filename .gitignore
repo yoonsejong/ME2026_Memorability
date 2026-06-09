@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific: large data and raw video not tracked
+video-devset/
+video-testset/
+devset/train/
+testset/test/
+devset/features/
+testset/features/
+feature_extractor/extracted_*/
+feature_extractor/features.zip
+
+# Sweep partial files (intermediate, auto-cleaned by run_sweep.py)
+results/partial/
+results/sweep_log.json

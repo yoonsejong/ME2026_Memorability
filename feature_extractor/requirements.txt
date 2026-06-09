@@ -1,0 +1,24 @@
+# Audio feature extraction
+librosa==0.11.0
+
+# NLP / text features
+spacy==3.8.14
+nrclex==4.1.0
+nltk==3.9.4
+textblob==0.20.0
+
+# Numeric
+numpy==2.4.4
+psutil
+
+# --- Post-install steps ---
+# 1. Install spaCy English model:
+#    python -m spacy download en_core_web_sm
+#
+# 2. Download NLTK / TextBlob corpora (punkt_tab, wordnet, tagger, etc.):
+#    python -m textblob.download_corpora
+#
+# 3. Install ffmpeg (provides ffprobe, used by audio_c.py):
+#    Windows : https://ffmpeg.org/download.html  (add bin/ to PATH)
+#    Linux   : sudo apt install ffmpeg
+#    macOS   : brew install ffmpeg
