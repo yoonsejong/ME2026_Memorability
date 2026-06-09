@@ -3,7 +3,7 @@
 Predicts the memorability score of short branded video clips using multi-modal
 feature fusion and cross-validated model selection.
 
-This code does *NOT* work off-the-shelf! You must first obtain the VIDEM dataset and features
+This code does *NOT* work off-the-shelf! You must first obtain the [VIDEM dataset](https://link.springer.com/chapter/10.1007/978-3-032-02725-2_4) and features
 provided by MediaEval Task Organizers. It requires some paperwork for dataset access.
 
 Use `run_sweep.py` to run all 1,650 experiments and reproduce `sweep_results.csv`.
