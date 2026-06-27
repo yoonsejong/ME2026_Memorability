@@ -324,6 +324,8 @@ Full sweep: 1,650 configurations (33 combinations × 5 selectors × 5 models × 
 
 All ensemble predictions use rank-average fusion of per-model outputs.
 
+For Table 1 in the paper: We computed the average and standard deviation of SRCC of all methods with and without the feature of interest. 
+
 ---
 
 ## Disclaimer
