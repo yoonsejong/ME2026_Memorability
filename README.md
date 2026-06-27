@@ -74,6 +74,7 @@ full devset and used to predict the testset.
 ├── kernel_fusion.py          # MKL kernel building and CV evaluation
 ├── models.py                 # sklearn pipeline factories
 ├── evaluate.py               # Concat-mode CV evaluation
+├── analyze_result.py         # Code to reproduce Table 1 after generating sweep_results.csv
 │
 ├── feature_extractor/        # Audio / emotion / semantic feature extraction
 │   ├── get_all_features.py       # Master extraction script (devset + testset)
